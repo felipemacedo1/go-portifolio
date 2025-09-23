@@ -1,0 +1,31 @@
+services/
+├── github_service_test.go
+├── content_service_test.go
+└── cache_service_test.go
+
+controllers/
+├── health_test.go
+├── github_test.go
+├── content_test.go
+└── analytics_test.go
+
+middleware/
+├── auth_test.go
+├── cors_test.go
+├── rate_limit_test.go
+└── logger_test.go
+
+models/
+├── content_test.go
+├── github_test.go
+└── response_test.go
+
+utils/
+├── helpers_test.go
+└── validator_test.go
+
+config/
+└── config_test.go
+
+database/
+└── mongodb_test.go
